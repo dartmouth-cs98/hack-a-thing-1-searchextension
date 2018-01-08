@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Getting Started Extension's Popup</title>
+		<style type="text/css">
+			body {
+				margin: 10px;
+				white-space: nowrap;
+				min-width: 260px;
+				max-width: 260px;
+				font-size: 12px;
+			}
+
+			h1 {
+				font-size: 15px;
+			}
+
+			#container {
+				display: flex;
+				align-items: center;
+			}
+
+			#searchTerm {
+				height: 18px;
+				width: 200px;
+				outline: none;
+				padding-left: 4px;
+				font-size: 12px;
+				border: 1px solid black;
+			}
+
+			#submitButton {
+				height: 20px;
+				width: 50px;
+				background: black;
+				color: white;
+				border: 1px solid black;
+				text-align: center;
+				vertical-align: middle;
+				line-height: 20px;
+			}
+		</style>
+
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="popup.js"></script>
+	</head>
+
+	<body>
+		<h1>Advanced Finder</h1>
+		<div id="container">
+			<input type="text" id="searchTerm">
+			<div id="submitButton">Search</div>
+		</div>
+	</body>
+</html>
