@@ -41,8 +41,8 @@ function saveSearchTerm(url, term) {
 function httpGetRequest(url) {
 	var req = new XMLHttpRequest();
 	req.open("GET", url, false);
-	req.setRequestHeader('app_id', '3ff65c3f');
-	req.setRequestHeader('app_key', 'a96818135e253ab489cb62a703fd2ccc');
+	req.setRequestHeader('app_id', 'xxxxxxxx');
+	req.setRequestHeader('app_key', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
 	req.send(null);
 	return req.responseText;
 }
